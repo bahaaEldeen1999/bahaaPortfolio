@@ -1,0 +1,23 @@
+#contact ul li i{
+    color: var(--blue);
+    font-size:16px
+}
+#contact ul li {
+    font-size: 14px;
+    color: var(--mainFont)
+}
+
+.input-group-text{
+   
+    color: var(--blue);
+    border:none;
+    background: var(--lightGray)
+   
+}
+.mapBG{
+    background-image: url('../images/map.jpeg');
+    background-size: cover;
+    background-attachment:fixed; 
+    min-height: 300px;
+    width: 100%
+}

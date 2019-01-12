@@ -1,0 +1,20 @@
+#resume p{
+    font-size: 12px
+} 
+#resume .mainP ,#resume .blueMain{
+    font-size: 24px
+} 
+#resume .col-md-6 {
+    padding: 40px 
+}
+
+.pResume{
+padding: 10px 0px;
+
+}
+.pResume h5{
+    font-size: 14px
+}
+.progress-bar{
+    background-color: var(--blue)
+}

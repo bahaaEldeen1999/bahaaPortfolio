@@ -1,0 +1,85 @@
+.buttons{
+    text-align: center
+}
+.social{
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px  ;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.social , .download{
+    border:1px solid var(--lightGray)
+}
+.download{
+    border-radius: 10px
+}
+
+.social:hover , .download:hover{
+    background-color: var(--blue);
+    color: var(--white)
+}
+.col-md-4,.col-md-3,.col-md-2 {
+    padding: 20px 10px
+}
+.col-md-4 p{
+    font-size: 14px;
+    color: var(--mainFont)
+}
+.icons{
+    padding: 10px
+}
+.col-md-4 .icons i{
+font-size: 50px !important;
+font-weight: normal !important
+}
+
+#pricing .row{
+    text-align: center;
+    color: var(--mainFont)
+}
+.factChange{
+    padding: 10px ;
+    background-color: var(--lightGray);
+    color: gray
+}
+.col-md-3 i{
+    font-size: 40px
+}
+.col-md-2{
+    text-align: center;
+    font-size: 50px;
+    color: var(--mainFont)
+}
+.col-md-2 i{
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.col-md-2 i:hover{
+    color: black;
+
+}
+
+.slideItem{
+    text-align: center
+}
+.imgDiv{
+    text-align: center;
+    overflow: hidden;
+    padding: 10px
+}
+.imgDiv img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.owl-carousel .owl-item img{
+    display: inline;
+    width: 100px;
+}
+

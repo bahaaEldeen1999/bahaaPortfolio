@@ -1,0 +1,131 @@
+nav{
+    background-color: var(--darkWhite);
+    width: 250px;
+    padding: 10px 0px;
+    color: var(--mainFont);
+    min-height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+
+.profile {
+    font-weight: bold;
+    
+    width: 200px;
+    padding: 0 0 5px 0;
+   margin: 5px 10px;
+    
+}
+.profileImg {
+    border-radius: 50%;
+    height: 40px;
+    width:40px;
+    text-align: left
+  
+}
+ul{
+    padding: 20px 0 ;
+}
+li{
+    padding: 10px 0;
+    cursor: pointer;
+    border-left: 5px solid transparent
+}
+li .fa{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:var(--mainFont)
+}
+.hoveredList{
+    background-color: var(--mainHover);
+}
+li.listItem:hover , #toggle:hover{
+    background-color: var(--mainHover)
+}
+#toggle{
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+#toggle .fa{
+    padding: 10px ;
+}
+
+.toggleClose{
+    display:none
+}
+.divideDiv{
+    height: 1px;
+    background: var(--lightGray);
+    margin-left:10px;
+    width: 80%;
+
+}
+
+@media screen and (max-width:1350px){
+    nav{
+        background-color: var(--darkWhite);
+        width: 100%;
+        padding: 10px 0px;
+        color: var(--mainFont);
+        min-height: 60px;
+        position: fixed;
+        max-height: 150px;
+        overflow-y: hidden ;
+        top:0;
+        left: auto;
+        bottom: auto;
+       
+    }
+   nav li,.profile{
+        display: inline-block
+    }
+    ul{
+        text-align: center
+    }
+    #toggle{
+        text-align: right;
+        cursor: pointer;
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 100%;
+    }
+}
+@media screen and (max-height:500px){
+    nav{
+        background-color: var(--darkWhite);
+        width: 100%;
+        padding: 10px 0px;
+        color: var(--mainFont);
+        min-height: 60px;
+        position: fixed;
+        max-height: 150px;
+        overflow-y: hidden ;
+        top:0;
+        left: auto;
+        bottom: auto;
+       
+    }
+   nav li,.profile{
+        display: inline-block
+    }
+    ul{
+        text-align: center
+    }
+    #toggle{
+        text-align: right;
+        cursor: pointer;
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 100%;
+    }
+}

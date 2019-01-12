@@ -1,0 +1,56 @@
+.main-text{
+    color: var(--white);
+    font-size: 10vw;
+    margin-top: 20%;
+}
+.mainText{
+    color: var(--white);
+    
+    margin-top: 20%;
+    font-weight: bold
+}
+.typing {
+    letter-spacing: .15em;
+    border-right: 5px solid white;
+    animation: typing 3.5s steps(40, end),
+    blink .75s step-end infinite;
+    width: 370px;
+    overflow: hidden;
+    font-size: 2.3vw;
+}
+
+@keyframes typing{
+    from{width: 0%;}
+    to{width:370px}
+}
+@keyframes blink{
+    from ,to { border-color:white }
+    50% {border-color:transparent}
+}
+
+@media screen and (max-height:500px){
+    .main-text{
+        color: white;
+        font-size: 10vw;
+        margin-top: 30px;
+    }
+    .mainText{
+        color: white;
+        
+        margin-top: 40px;
+        font-weight: bold
+    }
+    
+    
+}
+
+@media screen and (max-width:500px){
+    .typing {
+        letter-spacing: .15em;
+        border-right: none;
+        animation: none;
+        width: 370px;
+        overflow: hidden;
+        font-size: 2.3vw;
+    }
+}

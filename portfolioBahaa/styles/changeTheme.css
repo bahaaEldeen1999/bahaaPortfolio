@@ -1,0 +1,48 @@
+.changeTheme{
+    position: fixed;
+    right: -170px;
+    bottom: 0;
+    top:100px;
+    width: 170px;
+    background: white;
+    padding: 10px 5px;
+    z-index: 99;
+    
+    
+}
+.changeTheme h5{
+
+    text-align: center
+}
+.changeTheme li{
+    cursor: pointer;
+}
+.changeTheme ul {
+    
+    padding: 2px !important
+}
+.changeTheme .toggleChange{
+    position: absolute;
+    top: 0;
+    left: -30px;
+    background: white;
+    width: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+.changeNav{
+    overflow-y:scroll;
+    min-height: 100px;
+    -webkit-overflow-scrolling:touch;
+   
+}
+.toggleChange i{
+    animation:  rotate 3s ease-in-out infinite forwards
+}
+
+@keyframes rotate {
+    from{transform:rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
