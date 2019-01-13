@@ -75,4 +75,3 @@ contactLink.addEventListener('click',(e)=>{
     hideAll(sections);
     showSec(contact)  
 });
-

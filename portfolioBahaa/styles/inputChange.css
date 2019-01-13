@@ -1,0 +1,17 @@
+.inputDiv{
+    padding: 40px ;
+    width: 300px;
+    position: absolute;
+    z-index: 999999;
+    display: none ;
+}
+
+.closeInput{
+    color: white;
+    font-size: 20px;
+   
+    cursor: pointer;
+    padding: 3px;
+    background-color: rgba(0,0,0,.6)
+
+}

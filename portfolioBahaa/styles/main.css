@@ -100,7 +100,9 @@ section{
 .blueMain{
     color: var(--blue);
     font-weight: bold;
-    font-size: inherit
+    font-size: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
    
     
 }
